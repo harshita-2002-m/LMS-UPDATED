@@ -4,7 +4,7 @@ function Header() {
   return (
     <nav className="navbar navbar-expand-lg navbar nav-bg">
       <div className="container">
-        <Link className="navbar-brand text-light" to="/">
+        <Link className="navbar-brand text-light" to="/Teacher">
           Teacher
         </Link>
         <button
@@ -36,7 +36,7 @@ function Header() {
                 aria-labelledby="navbarDropdownMenuLink"
               >
                 <li>
-                  <a className="dropdown-item" href="/Profile">
+                  <a className="dropdown-item" href="/Teacher/Profile">
                     View Profile
                   </a>
                 </li>

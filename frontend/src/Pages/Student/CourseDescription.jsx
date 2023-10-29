@@ -28,7 +28,7 @@ function CourseDescription(props) {
           <p className="fw-bold">
             Created By :
             <a
-              href="/TeacherProfile"
+              href="/Student/TeacherProfile"
               className="text-decoration-none text-dark"
             >
               TeacherName
@@ -38,7 +38,7 @@ function CourseDescription(props) {
           <p className="fw-bold">End Date : date</p>
           {/* <p className="fw-bold"><a href="/AllStudents" className="text-decoration-none text-dark">Total Students : 100</a></p> */}
           <p className="fw-bold">
-            <a href="/Quiz" className="text-decoration-none text-dark">
+            <a href="/Student/Quiz" className="text-decoration-none text-dark">
               Quiz
             </a>
           </p>

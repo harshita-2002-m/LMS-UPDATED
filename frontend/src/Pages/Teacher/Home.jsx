@@ -9,7 +9,7 @@ function Home() {
           <div className="col-md-6">
             <div className="d-flex">
               <div className="card">
-                <a href="/CourseDashboard">
+                <a href="/Teacher/CourseDashboard">
                   <img
                     src="https://source.unsplash.com/1800x1800/?course&1"
                     className="card-img-top"
@@ -18,7 +18,7 @@ function Home() {
                 </a>
                 <div className="card-body">
                   <h5 className="card-title">
-                    <a href="/CourseDashboard" className="btn btn-primary btn-color">
+                    <a href="/Teacher/CourseDashboard" className="btn btn-primary btn-color">
                       Courses
                     </a>
                   </h5>

@@ -28,7 +28,7 @@ export default function EditProfile() {
               {/* <MDBBreadcrumbItem>
                 <a href='/Home'>Home</a>
               </MDBBreadcrumbItem> */}
-              <MDBBreadcrumbItem ><a href="/Profile">User Profile</a>
+              <MDBBreadcrumbItem ><a href="/Student/Profile">User Profile</a>
               </MDBBreadcrumbItem>
               <MDBBreadcrumbItem active>
                 Edit Profile

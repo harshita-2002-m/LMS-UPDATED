@@ -4,7 +4,7 @@ function Header() {
   return (
     <nav className="navbar navbar-expand-lg navbar nav-bg">
       <div className="container">
-        <Link className="navbar-brand text-light" to="/">
+        <Link className="navbar-brand text-light" to="/Student">
           Student
         </Link>
         <button

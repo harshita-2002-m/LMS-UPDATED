@@ -1,41 +1,3 @@
-// import React from "react";
-// function Login(params) {
-//   return (
-//     <div className="login-page">
-//       <div className="login-container">
-//         <form>
-//           <h1 className="login-title"> login</h1>
-//           <div class="form-group">
-//             <label for="exampleInputEmail1">Email address</label>
-//             <input
-//               type="email"
-//               class="form-control"
-//               id="exampleInputEmail1"
-//               aria-describedby="emailHelp"
-//               placeholder="Enter email"
-//             />
-//           </div>
-//           <div class="form-group">
-//             <label for="exampleInputPassword1">Password</label>
-//             <input
-//               type="password"
-//               class="form-control"
-//               id="exampleInputPassword1"
-//               placeholder="Password"
-//             />
-//           </div>
-//           <button type="submit" class="btn btn-primary">
-//                Login
-//           </button>
-//         </form>
-//       </div>
-//     </div>
-//   );
-// }
-// export default Login;
-
-//------------------------------------------------//
-
 import React from "react";
 import { Link } from "react-router-dom";
 
@@ -64,7 +26,7 @@ function Login() {
               placeholder="Password"
             />
           </div>
-          <Link to="/Home"> {/* Link to the Home page */}
+          <Link to="/Teacher/Home"> {/* Link to the Home page */}
             <button type="submit" className="btn btn-primary">
               Login
             </button>

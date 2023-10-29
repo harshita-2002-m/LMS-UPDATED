@@ -92,7 +92,7 @@ export default function CourseSyllabus() {
           className="btn btn-sm float-end bg-white text-dark AddContent"
           type="button"
         >
-          <a href="/AddTopic" className="text-decoration-none text-dark">
+          <a href="/Teacher/AddTopic" className="text-decoration-none text-dark">
             {" "}
             Add Topic
           </a>

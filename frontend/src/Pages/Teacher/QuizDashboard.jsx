@@ -17,7 +17,7 @@ const QuizDashboard = () => {
                 </a>
                 <div className="card-body">
                   <h5 className="card-title">
-                    <a href="/NewQuiz" className="btn btn-primary btn-color">
+                    <a href="/Teacher/NewQuiz" className="btn btn-primary btn-color">
                       Add New Quiz
                     </a>
                   </h5>
@@ -36,7 +36,7 @@ const QuizDashboard = () => {
               </a>
               <div className="card-body">
                 <h5 className="card-title">
-                  <a href="/Quizes" className="btn btn-primary btn-color">
+                  <a href="/Teacher/Quizes" className="btn btn-primary btn-color">
                     View Quizes
                   </a>
                 </h5>

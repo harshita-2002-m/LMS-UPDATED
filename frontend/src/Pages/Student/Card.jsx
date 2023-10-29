@@ -6,7 +6,7 @@ function Card(props) {
             <div className="card-body">
                 <h5 className="card-title">{props.title}</h5>
                 <p className="card-text">{props.desc}</p>
-                <Link to={`/detail/${props.id}`} className="btn btn-primary btn-color">
+                <Link to={`/Student/detail/${props.id}`} className="btn btn-primary btn-color">
                     Know More &rarr;
                 </Link>
             </div>
