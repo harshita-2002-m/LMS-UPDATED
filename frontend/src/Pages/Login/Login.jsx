@@ -2,35 +2,35 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 import { useState } from "react";
 import axios from 'axios';
-
-const baseUrl = 'http://127.0.0.1:8000/api';
-
+ 
+const baseUrl = 'https://danville.pythonanywhere.com/api';
+ 
 function Login() {
     const navigate = useNavigate();
     const [loginData, setLoginData] = useState({
         email: '',
         password: ''
     });
-
+ 
     const handleChange = (event) => {
         setLoginData({
             ...loginData,
             [event.target.name]: event.target.value
         });
     }
-
+ 
     const submitForm = () => {
         const formData = new FormData();
         formData.append('email', loginData.email);
         formData.append('password', loginData.password);
-
-        axios.post(baseUrl + '/instructor_login', formData)
+ 
+        axios.post(baseUrl + '/login/', formData)
             .then((res) => {
                 if (res.data.user_type === 'instructor') {
                     localStorage.setItem('userType', 'instructor');
                     // Redirect to the Instructor Home page
                     navigate("/Teacher");
-                    
+                   
                 } else if (res.data.user_type === 'student') {
                     localStorage.setItem('userType', 'student');
                     // Redirect to the Student Home page
@@ -44,7 +44,7 @@ function Login() {
                 console.log(error);
             });
     }
-
+ 
     return (
         // Your login form JSX remains the same
         <div className="login-page">
@@ -82,8 +82,8 @@ function Login() {
                 </form>
             </div>
         </div>
-
+ 
     );
 }
-
+ 
 export default Login;
